@@ -3,41 +3,107 @@
   <head>
     <meta charset="UTF-8">
     <title>Portfólio Guilherme Fernandes</title>
+
+    <style>
+      body{
+        background-color: white;
+        font-size: 16px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-right: 60px;
+        margin-left: 60px;
+        text-align: justify;
+        line-height: 30px;
+      }
+      #memoji{
+        border-radius: 80px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+      }
+      h1{
+        color: #4d637a;
+        text-align: center;
+        font-size: 30px;
+        font-family: monospace;
+      }
+      .button{
+        padding: 10px;
+        font-size: 20px;
+        color: #4d637a;
+        background-color: #D6CFCB;
+        text-decoration: none;
+        text-align: center;
+        text-decoration: none;
+      }
+      h3{
+        color: #4d637a;
+        font-size: 22px;
+        font-family: monospace
+      }
+      .body{
+        background-color: #96C0B7;
+      }
+      .person-style{
+        color: #48A9A6;
+      }
+      .city-style{
+        color: #4281a4;
+      }
+      #guilherme{
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .geek{
+        color:#4281a4;
+        font-size: 20px;
+      }
+      #futuro{
+        font-size: 14px;
+      }
+    </style>
   </head>
   <body>
-    <h1>Guilherme Augusto do Carmo Fernandes</h1><img src="./Imagens/Foto Redonda Guilherme.png" alt="Foto Redonda Guilherme Fernandes" width="80px">
-    <hr>
-
+    <img id="memoji" src="./Imagens/Foto Memoji - Guilherme FErnandes. - White bcJPG.png" alt="Foto do Memoji do Guilherme">
+    <h1>Guilherme Augusto do Carmo Fernandes</h1>
+    <hr class="divs-de-secoes">
+    <p>
+      <a href="#guilherme">Guilherme Augusto</a> tem 27 anos, <strong class="person-style">Brasileiro</strong>, formado em Engenharia Químico e pós-graduado em Engenharia e Gestão da Qualidade, mas futuramente <strong class="person-style">Desenvolvedor Web</strong> formado pela <strong class="person-style">Trybe</strong>.
+    </p>
+    <p style="text-align: center;">
+      Moro <strong class="city-style">Contagem</strong>, Região Metropolitana de <strong class="city-style">Belo Horizonte em Minas Gerais</strong>.
+    </p> 
+    <p class="button"><a href="https://www.linkedin.com/in/guilherme-fernandes-3945b710b/" target="_blank">Linkedin</a></p>
+    <p class="button"><a href="https://github.com/guilherme-ac-fernandes" target="_blank">GitHub</a></p>
+    <br>
     <h3>Índice:</h3>
     <ol>
-      <li><a href="#breve">Breve descrição</a></li>
       <li><a href="#curiosidade">Curiosidades</a></li>
-      <li><a href="#habilidade">Habilidades técnicas que possuo</a></li>
+      <li><a href="#habilidade">Habilidades técnicas que possuo</a></li> 
       <li><a href="#foto">Foto</a></li>
     </ol>
-
-
-    <h3 id="breve">Breve descrição:</h3>
-    <p><a href="#guilherme">Guilherme Augusto</a> tem 27 anos, brasileiro, formado em Engenharia Químico e pós-graduado em Engenharia e Gestão da Qualidade, mas futuramente Desenvolvedor Web formado pela Trybe. Moro em Contagem das Abóboras, ou simplesmente Contagem, situada na Região Metropolitana de Belo Horizonte em Minas Gerais. </p>
-
+    <br>
     <h3 id="curiosidade">Curiosidades:</h3>
     <ul>
-      <li><strong>Leitor Compulsivo</strong>. Querendo ler mais, mas Trybe está mudando meu foco, se quiser saber mais sobre meus livros lidos, favoritos, dentre outros, segue meu SKOOB → <a href="https://www.skoob.com.br/usuario/7343136-gui" target="_blank">Meu SKOOB</a></li>
-      <li>PotterHead extremo e <em>RavenClaw forever</em></li>
+      <li><strong class="habilidades">Leitor Compulsivo</strong>. Querendo ler mais, mas Trybe está mudando meu foco, se quiser saber mais sobre meus livros lidos, favoritos, dentre outros, segue meu SKOOB → <a href="https://www.skoob.com.br/usuario/7343136-gui" target="_blank">Meu SKOOB</a></li>
+      <li>PotterHead extremo e <em class="geek">RavenClaw forever</em></li>
       <li>Viciado em Nintendo, jogando <strong>METROID DREAD</strong></li>
       <li>Organizador Compulsivo (Etiquetas em quase tudo)</li>
     </ul>
-
+    <br>
     <h3 id="habilidade">Habilidades que possuo:</h3>
     <ul>
-      <li><strong>Conhecimento GEEK diverso e sempre em construção</strong></li>
-      <img src="./Imagens/Foto Harry Potter Itens.jpg" alt="Foto itens de Harry Potter" width="150px">
+      <li class="geek"><strong>Conhecimento GEEK diverso e sempre em construção</strong></li>
       <li>MiniTab - software de mineração</li>
       <li>DWSIM - software de processos químicos</li>
       <li>Pacote Office - muito conhecido e básicão</li>
       <li>Linguagem C - conhecimento básico, bem básico</li>
       <li>Linguagem Python - igualmente básico</li>
-      <li>Mas futuramente:
+      <li id="futuro">Mas futuramente:
         <ol>
           <li>Unix & Bash</li>
           <li>Git e GitHub</li>
@@ -49,9 +115,8 @@
         </ol>
       </li>
     </ul>
-
+    <br>
     <h3 id="foto">Foto:</h3>
     <img id="guilherme" src="./Imagens/Foto Guilherme Fernandes.jpeg" width="300px" alt="Foto de Guilherme Fernandes">
-
   </body>
 </html>

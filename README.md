@@ -5,3 +5,17 @@
 - Utilizando
 -[X] Estruturação por HTML
 -[X] Estilização por CSS
+
+###Requisitos:
+-[X] Nome completo;
+-[X] Foto atual acompanhada com um testo alternativo;
+-[X] Breve descrição com nacionalidade, cidade e estado;
+-[X] Lista de habilidades, com destaque para que mais orgulha;
+-[X] Link interno para foto;
+-[X] Link externo para sites que abram em uma nova aba;
+-[X] Partes destacadas com negrito e/ou itálico;
+-[X] Índice com links internos para diferentes seções do portfólio;
+-[X] Diferentes fontes para nome completo e descrição;
+-[X] Definir com base do background do portfólio;
+-[X] Alterar estilos das tags para destacar nacionalidade, cidade e estado;
+-[X] Colocar diferentes tamanhos em elementos da lista de habilidades;
