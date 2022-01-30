@@ -2,11 +2,12 @@
 
 - Repositório que será utilizado para construção do meu portfólio ao longo do meu aprendizado como Desenvolvedor Web na Trybe.
 
-- Utilizando
+- Utilizando:
+- 
 -[X] Estruturação por HTML
 -[X] Estilização por CSS
 
-###Requisitos:
+### Requisitos:
 
 -[X] Nome completo;
 
