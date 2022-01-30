@@ -1,0 +1,109 @@
+body{
+    background-color: white;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 60px;
+    margin-left: 60px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+h1{
+    color: #4d637a;
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+h3{
+    color: #4d637a;
+    font-size: 22px;
+    font-family: monospace
+}
+
+#memoji{
+    border-radius: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+#guilherme{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    padding: 20px;
+    padding-right: 20px;
+    background-color: #96C0B7;
+}
+
+#futuro{
+    font-size: 14px;
+}
+
+.divs-de-secoes{
+margin-top: 30px;
+}
+  
+.button{
+    padding: 10px;
+    font-size: 20px;
+    color: #4d637a;
+    background-color: #D6CFCB;
+    text-decoration: none;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+}
+
+.body{
+    background-color: #96C0B7;
+}
+
+.person-style{
+    color: #48A9A6;
+}
+
+.city-style{
+    color: #4281a4;
+}
+
+.geek{
+    color:#4281a4;
+    font-size: 20px;
+}
+  
+.descrição-right{
+    margin: 50px;
+    margin-left: 490px;
+}
+
+div div{
+    height: 430px;
+}
+
+ul li:nth-of-type(odd){
+    font-style: italic;
+    font-weight: bold;
+}
+
+#linkedin, #github{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    left: 690px;
+    top: 570px;
+
+}
+
+#github{
+    top: 670px;
+}
