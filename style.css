@@ -33,7 +33,7 @@ article{
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 50px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .descrição{
@@ -97,7 +97,8 @@ nav{
 h3{
     color: #4d637a;
     font-size: 22px;
-    font-family: monospace
+    font-family: monospace;
+    margin-bottom: 5px;
 }
 
 .listas{
@@ -113,12 +114,13 @@ h3{
     border-radius: 30px;
 }
 
-.curiosidade{
-    line-height: 40px;
+.listas .curiosidade li{
+    margin-bottom: 15px;
+    line-height: 30px;
 }
 
-.habilidade{
-    line-height: 30px;
+.listas .habilidade li{
+    margin-bottom: 4px;
 }
 
 .person-style{
